@@ -17,5 +17,5 @@ def http_trigger(req: func.HttpRequest) -> func.HttpResponse:
             name = req_body.get('name')
 
 
-        return func.HttpResponse(f"Hello, func app in git hub")
+        return func.HttpResponse(f"Hello, func app in git hub updated")
   
